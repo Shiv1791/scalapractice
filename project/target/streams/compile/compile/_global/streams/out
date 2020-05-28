@@ -1,0 +1,25 @@
+[error] /home/shivraj/workspace/scalapractice/project/Dependencies.scala:10:39: value % is not a member of String
+[error]   val typesafeConfig = "com.typesafe" % "config" % "1.4.0"
+[error]                                       ^
+[error] /home/shivraj/workspace/scalapractice/project/Dependencies.scala:12:39: value %% is not a member of String
+[error]   val akkaActor = "com.typesafe.akka" %% "akka-actor" % akkaVersion
+[error]                                       ^
+[error] /home/shivraj/workspace/scalapractice/project/Dependencies.scala:14:40: value %% is not a member of String
+[error]   val akkaStream = "com.typesafe.akka" %% "akka-stream" % akkaVersion
+[error]                                        ^
+[error] /home/shivraj/workspace/scalapractice/project/Dependencies.scala:16:38: value %% is not a member of String
+[error]   val akkaHttp = "com.typesafe.akka" %% "akka-http"  % akkaHttpVersion
+[error]                                      ^
+[error] /home/shivraj/workspace/scalapractice/project/Dependencies.scala:18:43: value %% is not a member of String
+[error]   val akkaSprayJson = "com.typesafe.akka" %% "akka-http-spray-json" % akkaHttpVersion
+[error]                                           ^
+[error] /home/shivraj/workspace/scalapractice/project/Dependencies.scala:20:34: value %% is not a member of String
+[error]   val akkaHttpCors = "ch.megard" %% "akka-http-cors" % akkaHttpCorsVersion
+[error]                                  ^
+[error] /home/shivraj/workspace/scalapractice/project/Dependencies.scala:22:45: value %% is not a member of String
+[error]   val akkaHttpTestKit = "com.typesafe.akka" %% "akka-http-testkit" % akkaHttpVersion
+[error]                                             ^
+[error] /home/shivraj/workspace/scalapractice/project/Dependencies.scala:23:41: value %% is not a member of String
+[error]   val akkaTestKit = "com.typesafe.akka" %% "akka-testkit" % akkaVersion
+[error]                                         ^
+[error] 8 errors found
