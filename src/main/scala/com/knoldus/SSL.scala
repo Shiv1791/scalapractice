@@ -1,3 +1,4 @@
+/*
 package com.knoldus
 
 import scala.collection.{LinearSeq, mutable}
@@ -42,3 +43,4 @@ object AppDriverThread extends App {
 
 }
 
+*/
