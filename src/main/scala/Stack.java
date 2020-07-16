@@ -1,3 +1,4 @@
+/*
 public class Stack {
     static final int MAX = 1000;
     int top;
@@ -62,3 +63,4 @@ public class Stack {
         System.out.println(s.pop());
     }
 }
+*/

@@ -1,3 +1,4 @@
+/*
 
 //case: Happens Before
 public class VolatileFieldVisibility {
@@ -29,3 +30,4 @@ public class VolatileFieldVisibility {
         s.readThread();//try to read without update
     }
 }
+*/

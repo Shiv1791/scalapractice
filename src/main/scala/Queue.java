@@ -1,3 +1,4 @@
+/*
 import java.net.Inet4Address;
 
 public class Queue {
@@ -62,3 +63,4 @@ public class Queue {
         System.out.println(queue.getRear() + " Rear item from the queue");
     }
 }
+*/

@@ -1,3 +1,4 @@
+/*
 import java.lang.reflect.Array;
 
 public class ProductOfArrays {
@@ -104,3 +105,4 @@ class PerfectSumProblem{
         findSubSets(arr, arr.length,K);
     }
 }
+*/

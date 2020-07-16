@@ -1,3 +1,4 @@
+/*
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Semaphore;
@@ -47,7 +48,9 @@ class SemaphorePractice {
         public static void main(String[] args) throws InterruptedException {
             Semaphore semaphore = new Semaphore(3);
             ExecutorService executorService = Executors.newFixedThreadPool(50);
-            IntStream.of(1000).forEach(i->executorService.execute(new Tasks(/*semaphore*/)));
+            IntStream.of(1000).forEach(i->executorService.execute(new Tasks(*/
+/*semaphore*//*
+)));
 
             executorService.shutdown();
             executorService.awaitTermination(1, TimeUnit.SECONDS);
@@ -81,4 +84,4 @@ class InterruptsPractice {
 
         }
     }
-}
+}*/

@@ -1,3 +1,4 @@
+/*
 
 
 class Rational(n: Int, d: Int) {
@@ -38,4 +39,4 @@ class Rational(n: Int, d: Int) {
 }
 val a = List()
 
-println(new Rational(1,9))
+println(new Rational(1,9))*/

@@ -1,3 +1,4 @@
+/*
 import javax.xml.crypto.Data;
 import java.text.SimpleDateFormat;
 import java.util.Arrays;
@@ -16,11 +17,13 @@ class UserService {
     public static void main(String[] args) throws InterruptedException {
         for(int i = 0; i< 1000; i++){
             int id = i;            //Normal thread Creates
-        /*   Thread newThread =  new Thread(()->{
+        */
+/*   Thread newThread =  new Thread(()->{
                 String birthDate =  new UserService().birthDate(id);
             });
             System.out.println("Threads = \n" +  newThread);
-            newThread.start();*/
+            newThread.start();*//*
+
 
         //Threads with threadPool
 
@@ -42,6 +45,7 @@ class UserService {
 
 
 class ThreadSafeFormatter {
+*/
 /*    public static ThreadLocal<SimpleDateFormat> dateFormatThreadLocal = new ThreadLocal<SimpleDateFormat>(){
 
         @Override
@@ -53,7 +57,8 @@ class ThreadSafeFormatter {
         public SimpleDateFormat get() {
             return super.get();
         }
-    };*/
+    };*//*
+
 
 //Or
 
@@ -117,8 +122,12 @@ class MyThread extends Thread
 {
     public static void main(String [] args)
     {
-        MyThread t = new MyThread(); /* Line 5 */
-        t.run();  /* Line 6 */
+        MyThread t = new MyThread(); */
+/* Line 5 *//*
+
+        t.run();  */
+/* Line 6 *//*
+
     }
 
     public void run()
@@ -144,4 +153,4 @@ class ThreadDemo extends Thread
     {
         System.out.print("Thread ");
     }
-}
+}*/

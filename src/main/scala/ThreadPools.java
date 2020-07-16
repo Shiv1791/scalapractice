@@ -1,20 +1,25 @@
+/*
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
+*/
 /**
  * Java provides 4 types of thread Pools.
  * 1. Fixed thread Pool (CPU Bound tasks) (Blocking queue)
  * 2. Cached Thread Pool (Synchronous Queue) (kill the thread if it is ideal for 60 seconds)
  * 3. Scheduled Thread Pool (Delay Queue)
  * Single Thread Pool (blocking Queue) (Recreate the thread if thread is killed because of task)
- * */
+ * *//*
 
+
+*/
 /*Synchronous vs Blocking queue
 * SynchronousQueue is special kind of BlockingQueue in which each insert operation must wait for a
 * corresponding remove operation by another thread, and vice versa.
-* When you call put() method on SynchronousQueue it blocks until another thread is there to take that element out of the Queue*/
+* When you call put() method on SynchronousQueue it blocks until another thread is there to take that element out of the Queue*//*
+
 public class ThreadPools {
 
     public static void main(String[] args) {
@@ -65,3 +70,4 @@ public class ThreadPools {
         }
     }
 }
+*/
